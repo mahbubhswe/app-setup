@@ -2,9 +2,9 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
+import 'package:setupapp/widgets/payment_slip.dart';
 import '../modules/auth/controllers/auth_controller.dart';
 import '../modules/auth/screens/auth_screen.dart';
-import '../modules/home/screens/home_screen.dart';
 
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
@@ -18,7 +18,7 @@ class SplashScreen extends StatelessWidget {
       backgroundColor: Colors.white,
       nextScreen: Obx(() {
         if (authController.user.value != null) {
-          return HomeScreen();
+          return PaymentSlip();
         } else {
           return AuthScreen();
         }
