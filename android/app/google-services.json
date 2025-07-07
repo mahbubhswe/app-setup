@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "190569139844",
+    "project_id": "appsetup-781df",
+    "storage_bucket": "appsetup-781df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:190569139844:android:5aa716ddf54bc61a8dbcd1",
+        "android_client_info": {
+          "package_name": "com.appseba.appsetup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTmUO833BVDkG1pnkzkGGcxMWFmJWaLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
